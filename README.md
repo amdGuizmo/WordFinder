@@ -9,12 +9,12 @@ How to setup the solution:
 
 Folders description:
 
--Artifacts: All the documents that describe the project
--Pack: All the release artifacts like setup and Dlls
--WordFinder: WindowsForms project for view layer
--WordFinderLib: ClassLibrary project with the logic
--WordFinderSetup: Setup project
--WordFinderTest: Test project with all the tests for WordFinderLib
+1. Artifacts: All the documents that describe the project
+2. Pack: All the release artifacts like setup and Dlls
+3. WordFinder: WindowsForms project for view layer
+4. WordFinderLib: ClassLibrary project with the logic
+5. WordFinderSetup: Setup project
+6. WordFinderTest: Test project with all the tests for WordFinderLib
 
 How to generate a new setup
 
