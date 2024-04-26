@@ -1,1 +1,1 @@
-2a14949e7fb7aa7242c2689188792be1  WordFinderSetup.msi
+af2f0b9e6eabe1407417f797d7e67a74  WordFinderSetup.msi

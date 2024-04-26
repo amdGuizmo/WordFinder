@@ -30,7 +30,7 @@ namespace WordFinderLib
             matrixV = RotateMatrix(matrix);
         }
 
-        public IEnumerable<string> RotateMatrix(IEnumerable<string> matrix)
+        private IEnumerable<string> RotateMatrix(IEnumerable<string> matrix)
         {
             List<string> currentMatrix = matrix.ToList();
             List<string> rotatedMatrix = new List<string>();
@@ -48,9 +48,9 @@ namespace WordFinderLib
             return rotatedMatrix;
         }
 
-        public IEnumerable<string> Find(IEnumerable<string> wordsream)
+        public IEnumerable<string> Find(IEnumerable<string> wordstream)
         {
-            foreach (string word in wordsream)
+            foreach (string word in wordstream)
             {
                 //search horizontaly
                 foreach(string row in matrixH)
